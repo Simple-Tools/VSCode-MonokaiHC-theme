@@ -1,0 +1,26 @@
+{
+	"name": "theme-monokai-hc",
+	"displayName": "Monokai Theme use High Contrast",
+	"description": "High contrast theme with monokai font color",
+	"version": "1.0.0",
+	"publisher": "iZDT",
+	"icon": "images/vscode.png",
+	"author": "iZDT",
+	"license": "MIT",
+	"engines": {
+		"vscode": "*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Simple-Tools/VSCode-MonokaiHC-themet"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Monokai HC",
+				"uiTheme": "hc-black",
+				"path": "./themes/monokai-hc-color-theme.json"
+			}
+		]
+	}
+}
